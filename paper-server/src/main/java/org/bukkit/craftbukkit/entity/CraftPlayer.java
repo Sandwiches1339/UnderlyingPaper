@@ -1827,6 +1827,10 @@ public class CraftPlayer extends CraftHumanEntity implements Player, PluginMessa
         this.hideEntity0(null, player);
     }
 
+    public void hidePlayerTablist(Player player) {
+        
+    };
+
     @Override
     public void hideEntity(Plugin plugin, org.bukkit.entity.Entity entity) {
         Preconditions.checkArgument(plugin != null, "Plugin cannot be null");
